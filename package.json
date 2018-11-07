@@ -1,0 +1,76 @@
+{
+  "name": "cordova-plugin-stripe",
+  "version": "1.5.3",
+  "description": "Cordova plugin that lets you use Stripe's Native SDKs for Android and iOS",
+  "files": [
+    "src",
+    "www",
+    "plugin.xml"
+  ],
+  "scripts": {
+    "docs": "jsdoc2md --template \"scripts/doc.template.md\" \"www/**/*.js\" > README.md",
+    "jshint": "jshint www && jshint src && jshint tests"
+  },
+  "cordova": {
+    "id": "cordova-plugin-stripe",
+    "platforms": [
+      "android",
+      "ios",
+      "browser"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ihadeed/cordova-plugin-stripe.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "cordova-browser",
+    "stripe",
+    "phonegap",
+    "cordova-plugin"
+  ],
+  "author": {
+    "name": "Ibby Hadeed",
+    "email": "i.hadeed@zyra.ca"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ihadeed/cordova-plugin-stripe/issues"
+  },
+  "homepage": "https://github.com/ihadeed/cordova-plugin-stripe#readme",
+  "devDependencies": {
+    "dmd-plugin-cordova-plugin": "^0.1.4",
+    "jsdoc-to-markdown": "^3.0.0",
+    "jshint": "^2.9.4"
+  },
+  "gitHead": "48913531c347cba712fac7e1076b62bd130427ae",
+  "_id": "cordova-plugin-stripe@1.5.3",
+  "_shasum": "62aae5b4ef0d0f4621d0e8498658a55b5133408c",
+  "_from": "cordova-plugin-stripe@*",
+  "_npmVersion": "3.10.10",
+  "_nodeVersion": "6.11.0",
+  "_npmUser": {
+    "name": "ihadeed",
+    "email": "ibby@zyra.ca"
+  },
+  "dist": {
+    "shasum": "62aae5b4ef0d0f4621d0e8498658a55b5133408c",
+    "tarball": "https://registry.npmjs.org/cordova-plugin-stripe/-/cordova-plugin-stripe-1.5.3.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "ihadeed",
+      "email": "ibby@zyra.ca"
+    }
+  ],
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/cordova-plugin-stripe-1.5.3.tgz_1499518651595_0.1002744548022747"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-stripe/-/cordova-plugin-stripe-1.5.3.tgz",
+  "readme": "ERROR: No README data found!"
+}
